@@ -16,4 +16,4 @@ else:
     print('Seu IMC está Obeso')
 
 print(nome, 'Tem', altura, 'De altura')
-print('Pesa', peso, 'Quilos e seu imc é:', imc_arredondado)
+print('Pesa', peso, 'quilos e seu imc é:', imc_arredondado)
