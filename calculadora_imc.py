@@ -1,7 +1,7 @@
 nome = input('Digite seu nome: ')
-peso_str = input('Digite seu peso: ')
+peso_str = input('Digite seu peso (kg): ')
 peso = float(peso_str.replace(',', '.'))
-altura_str = input('Digite sua altura: ')
+altura_str = input('Digite sua altura (m): ')
 altura = float(altura_str.replace(',', '.'))
 
 imc = peso / (altura ** 2)
@@ -15,5 +15,5 @@ elif imc_arredondado >= 25 and imc_arredondado <= 29.99:
 else:
     print('Seu IMC está Obeso')
 
-print(nome, 'Tem', altura, 'De altura')
-print('Pesa', peso, 'Quilos e seu imc é:', imc_arredondado)
+print(nome, 'Você tem', altura, 'de altura')
+print('Pesa', peso, 'quilos e seu imc é:', imc_arredondado)
