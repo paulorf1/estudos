@@ -15,5 +15,5 @@ elif imc_arredondado >= 25 and imc_arredondado <= 29.99:
 else:
     print('Seu IMC está Obeso')
 
-print(nome, 'Você tem', altura, 'de altura')
+print(nome, 'você tem', altura, 'de altura')
 print('Pesa', peso, 'quilos e seu imc é:', imc_arredondado)
